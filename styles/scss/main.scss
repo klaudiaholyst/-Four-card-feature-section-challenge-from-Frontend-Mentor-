@@ -25,7 +25,7 @@ body {
     font-size: 15px;
     color: #8a8a8a;
 }
-.section {
+.articles-container {
     display: flex;
     flex-direction: column;
 }
@@ -101,7 +101,7 @@ body {
         }
     }
     
-    .section {
+    .articles-container {
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -133,7 +133,7 @@ body {
     body{
         margin: 0 auto;
     }
-    .section {
+    .articles-container {
         width:900px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -162,7 +162,7 @@ body {
 }
 
 @media (min-width:1200px){
-    .section {
+    .articles-container {
         width:1100px;
 }
 }
