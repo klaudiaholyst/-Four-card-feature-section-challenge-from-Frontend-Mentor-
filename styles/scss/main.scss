@@ -5,13 +5,7 @@ html {
 body {
     margin: 0 8vw;
 }
-.attribution {
-    font-size: 11px;
-    text-align: center;
-    a {
-        color: hsl(228, 45%, 44%);
-    }
-}
+
 .header {
     margin: 100px auto;
     text-align: center;
@@ -86,6 +80,15 @@ body {
     &__h2 {
         margin: 0 0;
         color: #3d3c4b;
+    }
+}
+.footer{
+    &__p{
+    font-size: 11px;
+    text-align: center;
+    }
+    &__a {
+        color: hsl(228, 45%, 44%);
     }
 }
 
